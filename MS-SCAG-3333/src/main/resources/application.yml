@@ -1,0 +1,14 @@
+server:
+   port: 2222
+
+spring:
+  cloud:
+    gateway:
+      routes:
+      - uri: http://localhost:1001/
+        predicates:
+         - Path=/userApi/**
+         
+      - uri: http://localhost:1002/
+        predicates:
+         - Path=/empApi/**
