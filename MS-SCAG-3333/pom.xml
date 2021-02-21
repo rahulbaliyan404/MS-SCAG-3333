@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.home</groupId>
-	<artifactId>MS-AG-2222</artifactId>
+	<artifactId>MS-SCAG-3333</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>MS-SCAG-3333</name>
 	<description>MS-SCAG-3333</description>
