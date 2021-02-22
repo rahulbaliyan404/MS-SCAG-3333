@@ -1,5 +1,5 @@
 server:
-   port: 2222
+   port: 3333
 
 spring:
   cloud:
@@ -12,3 +12,11 @@ spring:
       - uri: http://localhost:1002/
         predicates:
          - Path=/empApi/**
+         
+      - uri: http://localhost:1003/
+        predicates:
+         - Path=/demoApi/**
+         
+      - uri: http://localhost:1004/
+        predicates:
+         - Path=/sqlApi/**
