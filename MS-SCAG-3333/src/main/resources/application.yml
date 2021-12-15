@@ -11,12 +11,12 @@ spring:
          
       - uri: http://localhost:1002/
         predicates:
-         - Path=/empApi/**
+         - Path=/demo1002/**
          
       - uri: http://localhost:1003/
         predicates:
-         - Path=/demoApi/**
+         - Path=/demo1003/**
          
       - uri: http://localhost:1004/
         predicates:
-         - Path=/sqlApi/**
+         - Path=/demo1004/**
